@@ -93,7 +93,7 @@ extern NSString *const kAppiraterReminderRequestDate;
  Users will need to have the same version of your app installed for this many
  days before they will be prompted to rate it.
  */
-#define APPIRATER_DAYS_UNTIL_PROMPT		30		// double
+#define APPIRATER_DAYS_UNTIL_PROMPT		7		// double
 
 /*
  An example of a 'use' would be if the user launched the app. Bringing the app
@@ -131,7 +131,7 @@ extern NSString *const kAppiraterReminderRequestDate;
  'YES' will show the Appirater alert everytime. Useful for testing how your message
  looks and making sure the link to your app's review page works.
  */
-#define APPIRATER_DEBUG				YES
+#define APPIRATER_DEBUG				NO
 
 @interface Appirater : NSObject <UIAlertViewDelegate> {
 
