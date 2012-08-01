@@ -64,14 +64,14 @@ extern NSString *const kAppiraterReminderRequestDate;
  This is the message your users will see once they've passed the day+launches
  threshold.
  */
-#define APPIRATER_LOCALIZED_MESSAGE     NSLocalizedString(@"If you enjoy using %@, would you mind taking a moment to rate it? It won't take more than a minute. Thanks for your support!", nil)
-#define APPIRATER_MESSAGE				[NSString stringWithFormat:APPIRATER_LOCALIZED_MESSAGE, APPIRATER_APP_NAME]
+#define APPIRATER_LOCALIZED_MESSAGE     NSLocalizedString(@"Give us a 5 Star Rating in the App Store!", nil)
+#define APPIRATER_MESSAGE				[NSString stringWithFormat:APPIRATER_LOCALIZED_MESSAGE]
 
 /*
  This is the title of the message alert that users will see.
  */
-#define APPIRATER_LOCALIZED_MESSAGE_TITLE   NSLocalizedString(@"Rate %@", nil)
-#define APPIRATER_MESSAGE_TITLE             [NSString stringWithFormat:APPIRATER_LOCALIZED_MESSAGE_TITLE, APPIRATER_APP_NAME]
+#define APPIRATER_LOCALIZED_MESSAGE_TITLE   NSLocalizedString(@"Like the app?", nil)
+#define APPIRATER_MESSAGE_TITLE             [NSString stringWithFormat:APPIRATER_LOCALIZED_MESSAGE_TITLE]
 
 /*
  The text of the button that rejects reviewing the app.
@@ -131,7 +131,7 @@ extern NSString *const kAppiraterReminderRequestDate;
  'YES' will show the Appirater alert everytime. Useful for testing how your message
  looks and making sure the link to your app's review page works.
  */
-#define APPIRATER_DEBUG				NO
+#define APPIRATER_DEBUG				YES
 
 @interface Appirater : NSObject <UIAlertViewDelegate> {
 
