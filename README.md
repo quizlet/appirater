@@ -1,3 +1,9 @@
+Not Supported
+-------------
+
+This fork is no longer referenced or maintained. Not deleting this fork since old code references it.
+
+
 Introduction
 ------------
 Appirater is a class that you can drop into any iPhone app (iOS 4.0 or later) that will help remind your users
